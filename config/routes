@@ -4,3 +4,5 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
+/noticias NoticiasR GET
+/contato ContatoR GET
