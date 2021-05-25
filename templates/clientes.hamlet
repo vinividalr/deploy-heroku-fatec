@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                CPF
+            <th>
+                IDADE
+            <th>
+    <tbody>
+        $forall Entity pid cliente <- clientes
+            <tr>
+                <td>
+                    #{clienteNome cliente}
+                <td>
+                    #{clienteCpf cliente}
+                <td>
+                    #{clienteIdade cliente0}
+                <td>
+                    <form method=post action=@{ApagarCliR cid}>
+                    <input type=submit value="X">

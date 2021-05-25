@@ -6,3 +6,7 @@
 / HomeR GET 
 /noticias NoticiasR GET
 /contato ContatoR GET
+/cliente ClienteR GET POST
+/cliente/perfil/#ClienteId PerfilR GET
+/clientes ListaCliR GET
+/cliente/apagar/#ClienteId ApagarCliR POST

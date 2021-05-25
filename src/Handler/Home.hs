@@ -96,7 +96,7 @@ getNoticiasR = do
                 <a href="/contato">
                     CONTATO
             <h1>
-                NOTICIAS
+                NOTICIAS!
             <button onclick="teste()">
                 OK
         |]
